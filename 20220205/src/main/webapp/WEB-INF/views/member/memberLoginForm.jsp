@@ -36,8 +36,6 @@
 </div>
 </body>
 
-<script>
-	alert('${message}')
-</script>
+
 
 </html>

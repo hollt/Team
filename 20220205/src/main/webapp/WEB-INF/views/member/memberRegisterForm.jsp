@@ -41,7 +41,7 @@
     <div class="input-form-backgroud row">
       <div class="input-form col-md-12 mx-auto">
         <h4 class="mb-3">회원가입</h4>
-        <form class="validation-form" novalidate id="frm" action="memberJoin.do" method="post">
+        <form class="validation-form" novalidate id="frm" action="register.do" method="post">
           <div class="row">
             <div class="col-md-6 mb-3">
               <label for="name">아이디</label>
@@ -78,10 +78,15 @@
 
           <div class="mb-3">
             <label for="address">주소</label>
-            <input type="text" class="form-control" id="address" name="" placeholder="대구광역시 중구" required>
+            <input type="text" class="form-control" id="address" name="address" placeholder="대구광역시 중구" required>
             <div class="invalid-feedback">
               주소를 입력해주세요.
             </div>
+          </div>
+          
+          <div class="mb-3">
+            <label for="address">권한</label>
+            <input type="text" class="form-control" id="author" name="author" value="USER" readonly="readonly">
           </div>
 
           <hr class="mb-4">

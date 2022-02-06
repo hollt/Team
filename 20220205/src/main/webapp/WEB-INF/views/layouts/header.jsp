@@ -7,7 +7,7 @@
  <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
       <div class="container">
-        <a href="main.do" class="navbar-brand">Yedam<span class="text-primary">Library.</span></a>
+        <a href="main.do" class="navbar-brand">Yedam<span class="text-primary">도서관.</span></a>
 
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
